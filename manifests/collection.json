@@ -1,0 +1,13 @@
+{
+  "id" : "https://samanehzahedi90.github.io/Final/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in samanehzahedi90/Final project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://samanehzahedi90.github.io/Final/manifests/manifest",
+    "label" : "[Click to edit label]"
+  } ]
+}
