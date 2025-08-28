@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://samanehzahedi90.github.io/Final/manifests/manifest",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://8fb99287-7e90-44ea-855b-6e2294f8faf1",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://0077b408-002e-4ddd-865c-d92d39e51d05",
+      "@type" : "sc:Canvas",
+      "label" : "Cafe",
+      "height" : 3024,
+      "width" : "0",
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://0376a656-5438-420c-88e7-1d9692d4118b",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://samanehzahedi90.github.io/Final/images/IMG_1250/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://samanehzahedi90.github.io/Final/images/IMG_1250",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://0077b408-002e-4ddd-865c-d92d39e51d05"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
